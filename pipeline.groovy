@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 sh 'mkdir -p /mnt/c/Users/ismad/devops/test2'
-                sh 'python hello.py'
+                sh 'python3 hello.py'
             }
         }
     }
